@@ -60,4 +60,4 @@ end
 
 **Why the end closing keyword instead of well known block delimiters `{ block }`**
 
-That's a good question, Sumerio will follow the Lua and Ruby end closing style because `end` keyword somewho is related to dynamic languages and courley braces with static one.
+That's a good question, Sumerio will follow the Lua and Ruby's closing style. I always tend to think `end` keyword is often related to dynamic languages and curly braces with static typed languages, off course this isn't true but if you peek all C-family programming languages you'll notice that most are statically type.
