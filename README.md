@@ -2,9 +2,14 @@
 
 [![Github](https://img.shields.io/github/followers/Irwin1985?label=Follow&style=social)](https://github.com/Irwin1985)
 
-I ❤ Language Design and Interpreter Construction.
+I'm a ***Compiler and Interpreter*** lover ❤ so I decided study this huge topic inspired by my goal of creating my first programming language called `Sumerian` or `Sumerio` in Spanish *(yep, I'm latin).* So far I can tell you no much about SumerioLang but it's a Dynamic typed language which syntax will be inspired on Ruby, Python, Visual Foxpro, C and Lisp.
 
-- 🔭 I’m currently working on 🦊FoxLite programming language which is a Visual Foxpro subset. _(comming soon)_
-- 🤔 I’m looking for help with 🦊FoxLite built-ins core functions which they are a lot...
-- 💬 You can ask me about Interpreter Constructions, Language Design and implementation.
-- 🌱 I’m currently learning Compiler and Interpreter construction...
+🤔 Actually I'm current working in its syntax and I think this chunk of Sumerio code it ok for start:
+
+```xBase
+// variable declaration
+var a
+a = 10
+var b = 5 // declaration and assignment (binding).
+print(a + b)
+```
