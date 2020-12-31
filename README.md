@@ -56,3 +56,8 @@ while i < 10
   i += 1
 end
 ```
+<hr>
+
+**Why the end closing keyword instead of well known block delimiters `{ block }`**
+
+That's a good question, Sumerio will follow the Lua and Ruby end closing style because `end` keyword somewho is related to dynamic languages and courley braces with static one.
