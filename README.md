@@ -10,53 +10,57 @@ I'm a ***Compiler and Interpreter*** lover ❤ so I decided study this huge topi
 
 ```xBase
 // variable declaration
-var a
-a = 10
-var b = 5 // declaration and assignment (binding).
-?"result:", a + b
+var a;
+a = 10;
+var b = 5; // declaration and assignment (binding).
+?"result:", a + b;
 
 // control flow
 // if statement
-if a + b < 10
-  ?"is less"
-elif a + b > 10
-  ?"a is greater"
+if a + b < 10:
+  ?"is less";
+elif a + b > 10:
+  ?"a is greater";
 end
 
 // functions: in sumerio functions are first class citizen (inspired from LISP)
 
-fun parent()
-  var x = "hello"
-  func child()
-    ?x
+fun parent():
+  var x = "hello";
+  func child():
+    ?x;
   end
-  return child
+  return child;
 end
 var f = parent();
-f()
+f();
 
 // for statement (inspired from Visual FoxPro)
-for i=1 to 3
-  ?i // prints 1,2,3
+for i=1 to 3:
+  ?i; // prints 1,2,3
 end
 // using step
-for i=1 to 10 step 3
-  ?i // prints 1, 3, 5, 7
+for i=1 to 10 step 3:
+  ?i; // prints 1, 3, 5, 7
 end
 
 // down to...
-for i=4 to 1 step -1
-  ?i // prints 4,3,2,1
+for i=4 to 1 step -1:
+  ?i; // prints 4,3,2,1
 end
 
 // while statement
-var i = 1
-while i < 10
-  ?i
-  i += 1
+var i = 1;
+while i < 10:
+  ?i;
+  i += 1;
 end
 ```
 <hr>
+
+**Why the semicolon for terminating the expressions?**
+
+Well, parsing expressions requires any terminator character and the semicolon `;` is the most widely used termination character used in programming, but let me know if you are thinking in another character as good as ';'.
 
 **Why the end closing keyword instead of well known block delimiters `{ block }`**
 
