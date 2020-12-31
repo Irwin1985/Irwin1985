@@ -60,7 +60,7 @@ end
 
 **Why the semicolon for terminating the expressions?**
 
-Well, parsing expressions requires any terminator character and the semicolon `;` is the most widely used termination character used in programming, but let me know if you are thinking in another character as good as ';'.
+Well, parsing expressions requires any terminator character and the semicolon `;` is the most widely used termination character used in programming, but let me know if you are thinking in another character as good as `;`.
 
 **Why the end closing keyword instead of well known block delimiters `{ block }`**
 
