@@ -4,16 +4,26 @@
 
 I'm a ***Compiler and Interpreter*** lover ❤ so I decided study this huge topic inspired by my goal of creating my first programming language called `Sumerian` or `Sumerio` in Spanish *(yep, I'm latin).* So far I can tell you no much about `SumerioLang` but it's a *Dynamic typed language* which syntax will be inspired on **Ruby, Python, Visual Foxpro, C and Lisp.**
 
+Take a look to its syntax below and let me know if you have some suggestions...
+
 <hr>
 
 🤔 Actually I'm currently working in `Sumerio` syntax and I think this first approach it ok for start:
 
 ```xBase
-// variable declaration
+// C-Style comments
+/**
+* And multi-line comment are also important.
+*/
+
+// let's start with variable declaration
 var a;
-a = 10;
+
+// any statement need a semicolon `;` termination (Sorry for VFP developers).
+
+a = 10; // isolated assignment statement
 var b = 5; // declaration and assignment (binding).
-?"result:", a + b;
+?"result:", a + b; // do you like the VFP `?` printing operator? or `print` instead?
 
 // control flow
 // if statement
@@ -22,6 +32,27 @@ if a + b < 10:
 elif a + b > 10:
   ?"a is greater";
 end
+
+// If your conditional's block is composed by a single statement then 
+// check this out:
+
+if a > b -> return "greater";
+
+// Need an else alternative? No problem...
+if a > b -> return "greater" -> return "less";
+
+// What about ternary operator like this one:
+
+result = (a > b) <- "greater" -> "less"; // do you like it? is it make any sense?
+
+// Check this branching statement
+case a:
+  -> 1 : "a is 1";
+  -> 2 : "a is 2";
+  -> 3 : "a is 3";
+  other: "dont know what a is it";
+end
+// do you like it? or do you miss the `when` keyword?
 
 // functions: in sumerio functions are first class citizen (inspired from LISP)
 
@@ -54,6 +85,31 @@ var i = 1;
 while i < 10:
   ?i;
   i += 1;
+end
+
+// Let's see some classes declarations, shall we?
+class Animal:
+  init(name): // init method is special. Is like a constructor.
+    this.name = name
+  end
+  // class method's don't need the 'fun' keyword.
+  walk():
+    ?"Walking..."
+  end
+
+// Inheritance
+class Dog as Animal:
+  init(name):
+    super(name)
+    
+  bark():
+   ?"Boof..."
+  end
+
+// Instances
+doggy = Dog("Spike")
+for i=1 to 3:
+   doggy.bark(); // shut up dog...
 end
 ```
 <hr>
