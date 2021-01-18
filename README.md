@@ -5,7 +5,7 @@
 
 Before anything, take a look at my Github statistics...
 
-### ⌛️ &nbsp; How I did it at GitHub?
+### ⌛️ &nbsp; How I did it?
 <p align="center">
     <a href="https://github.com/irwin1985">
         <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=irwin1985&show_icons=true&theme=algolia&include_all_commits=true&count_private=true" />
