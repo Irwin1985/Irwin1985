@@ -1,36 +1,17 @@
-<h1>
-    <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30" />
-    Hey, nice to see you.
+<h1>    
+    ### Hey 👋, I'm Irwin
+    Welcome to my humble adobe!
 </h1>
 
-### ⚙️ &nbsp;GitHub Analytics
+Before anything, take a look at my Github Analytics...
+
+### ⌛️ &nbsp; How I did it at GitHub?
 <p align="center">
     <a href="https://github.com/irwin1985">
         <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=irwin1985&show_icons=true&theme=algolia&include_all_commits=true&count_private=true" />
         <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=irwin1985&layout=compact&langs_count=8&theme=algolia" />
     </a>
 </p>
-
-### 🤝🏻 &nbsp;Connect with Me
-<p align="center">
-    <a href="https://coskun.dev">
-        <img src="https://img.shields.io/badge/-coskun.dev-3423A6?style=flat&logo=Google-Chrome&logoColor=white" />
-    </a>
-    <a href="https://twitter.com/irwin_rg">
-        <img src="https://img.shields.io/badge/-@mehmetcskun__-1da1f2?style=flat&logo=Twitter&logoColor=white" />
-    </a>
-    <a href="https://www.linkedin.com/in/irwin1985/">
-        <img src="https://img.shields.io/badge/-Mehmet%20COŞKUN-0077B5?style=flat&logo=Linkedin&logoColor=white" />
-    </a>
-    <a href="mailto:rodriguez.irwin@gmail.com">
-        <img src="https://img.shields.io/badge/-rodriguez.irwin@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white" />
-    </a>
-    <a href="https://instagram.com/irwinrdz85">
-        <img src="https://img.shields.io/badge/Instagram-irwinrdz85-red" />
-    </a>
-</p>
-
-### Hey 👋, I'm Irwin
 
 [![Github](https://img.shields.io/github/followers/Irwin1985?label=Follow&style=social)](https://github.com/Irwin1985)
 
@@ -153,3 +134,22 @@ Well, parsing expressions requires any terminator character and the semicolon `;
 **Why the end closing keyword instead of well known block delimiters `{ block }`**
 
 That's a good question, Sumerio will follow the Lua and Ruby's closing style. I always tend to think `end` keyword is often related to dynamic languages and curly braces with static typed languages, off course this isn't true but if you peek all C-family programming languages you'll notice that most are statically type.
+
+###  🧲 &nbsp;Follow me... 
+<p align="center">
+    <a href="https://youtube.com/IrwinRodriguez">
+        <img src="https://img.shields.io/badge/Youtube-Channel-red" />
+    </a>
+    <a href="mailto:rodriguez.irwin@gmail.com">
+        <img src="https://img.shields.io/badge/Gmail-Contact-yellowgreen" />
+    </a>
+    <a href="https://twitter.com/irwin_rg">
+        <img src="https://img.shields.io/badge/Twitter-irwin__rg-blue" />
+    </a>
+    <a href="https://instagram.com/irwinrdz85">
+        <img src="https://img.shields.io/badge/Instagram-irwinrdz85-red" />
+    </a>
+    <a href="https://www.linkedin.com/in/irwin1985/">
+        <img src="https://img.shields.io/badge/LinkedIn-irwin1985-orange" />
+    </a>
+</p>
