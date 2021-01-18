@@ -3,7 +3,7 @@
     Welcome to my humble abode!
 </h1>
 
-Before anything, take a look at my Github Analytics...
+Before anything, take a look at my Github statistics...
 
 ### ⌛️ &nbsp; How I did it at GitHub?
 <p align="center">
