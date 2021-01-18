@@ -25,8 +25,8 @@
     <a href="mailto:rodriguez.irwin@gmail.com">
         <img src="https://img.shields.io/badge/-rodriguez.irwin@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white" />
     </a>
-    <a href="https://instagram.com/irwinrdz">
-        <img src="https://img.shields.io/badge/-@mehmetcskun__-E4405F?style=flat&logo=Instagram&logoColor=white" />
+    <a href="https://instagram.com/irwinrdz85">
+        <img src="https://img.shields.io/badge/Instagram-irwinrdz85-red" />
     </a>
 </p>
 
