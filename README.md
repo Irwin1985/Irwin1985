@@ -1,6 +1,6 @@
 <h1>    
     Hey 👋, I'm Irwin
-    Welcome to my humble adobe!
+    Welcome to my humble abode!
 </h1>
 
 Before anything, take a look at my Github Analytics...
