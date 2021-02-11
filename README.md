@@ -40,14 +40,14 @@ var b = 5 // declaration and assignment (binding).
 
 // control flow
 // if statement
-if a + b < 10:
+if a + b < 10
   ?"is less"
-elif a + b > 10:
+elif a + b > 10
   ?"a is greater"
 end
 
 // If your conditional's block is composed by a single statement then 
-// check this out:
+// check this out
 
 if a > b -> return "greater"
 
@@ -59,7 +59,7 @@ if a > b -> return "greater" -> return "less"
 result = (a > b) <- "greater" -> "less" // do you like it? is it make any sense?
 
 // Check this branching statement
-case a:
+case a
   -> 1 : "a is 1"
   -> 2 : "a is 2"
   -> 3 : "a is 3"
@@ -69,9 +69,9 @@ end
 
 // functions: in sumerio functions are first class citizen (inspired from LISP)
 
-fun parent():
+fun parent()
   var x = "hello"
-  func child():
+  func child()
     ?x
   end
   return child
@@ -80,48 +80,48 @@ var f = parent()
 f();
 
 // for statement (inspired from Visual FoxPro)
-for i=1 to 3:
+for i=1 to 3
   ?i // prints 1,2,3
 end
 // using step
-for i=1 to 10 step 3:
+for i=1 to 10 step 3
   ?i // prints 1, 3, 5, 7
 end
 
 // down to...
-for i=4 to 1 step -1:
+for i=4 to 1 step -1
   ?i // prints 4,3,2,1
 end
 
 // while statement
 var i = 1
-while i < 10:
+while i < 10
   ?i
   i += 1
 end
 
 // Let's see some classes declarations, shall we?
-class Animal:
-  init(name): // init method is special. Is like a constructor.
+class Animal
+  init(name) // init method is special. Is like a constructor.
     this.name = name
   end
   // class method's don't need the 'fun' keyword.
-  walk():
+  walk()
     ?"Walking..."
   end
 
 // Inheritance
-class Dog as Animal:
-  init(name):
+class Dog as Animal
+  init(name)
     super(name)
     
-  bark():
+  bark()
    ?"Boof..."
   end
 
 // Instances
 doggy = Dog("Spike")
-for i=1 to 3:
+for i=1 to 3
    doggy.bark() // shut up dog...
 end
 ```
