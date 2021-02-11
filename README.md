@@ -30,9 +30,9 @@ Take a look to its syntax below and let me know if you have some suggestions...
 */
 
 // let's start with variable declaration
-var a;
+var a
 
-// any statement need a semicolon `;` termination (Sorry for VFP developers).
+// you don't need to terminate any statement with semicolon (yeah! I know how to parse statements like python)
 
 a = 10; // isolated assignment statement
 var b = 5; // declaration and assignment (binding).
@@ -41,63 +41,63 @@ var b = 5; // declaration and assignment (binding).
 // control flow
 // if statement
 if a + b < 10:
-  ?"is less";
+  ?"is less"
 elif a + b > 10:
-  ?"a is greater";
+  ?"a is greater"
 end
 
 // If your conditional's block is composed by a single statement then 
 // check this out:
 
-if a > b -> return "greater";
+if a > b -> return "greater"
 
 // Need an else alternative? No problem...
-if a > b -> return "greater" -> return "less";
+if a > b -> return "greater" -> return "less"
 
-// What about ternary operator like this one:
+// What about ternary operator like this one
 
-result = (a > b) <- "greater" -> "less"; // do you like it? is it make any sense?
+result = (a > b) <- "greater" -> "less" // do you like it? is it make any sense?
 
 // Check this branching statement
 case a:
-  -> 1 : "a is 1";
-  -> 2 : "a is 2";
-  -> 3 : "a is 3";
-  other: "dont know what a is it";
+  -> 1 : "a is 1"
+  -> 2 : "a is 2"
+  -> 3 : "a is 3"
+  other: "dont know what a is it"
 end
 // do you like it? or do you miss the `when` keyword?
 
 // functions: in sumerio functions are first class citizen (inspired from LISP)
 
 fun parent():
-  var x = "hello";
+  var x = "hello"
   func child():
-    ?x;
+    ?x
   end
-  return child;
+  return child
 end
-var f = parent();
+var f = parent()
 f();
 
 // for statement (inspired from Visual FoxPro)
 for i=1 to 3:
-  ?i; // prints 1,2,3
+  ?i // prints 1,2,3
 end
 // using step
 for i=1 to 10 step 3:
-  ?i; // prints 1, 3, 5, 7
+  ?i // prints 1, 3, 5, 7
 end
 
 // down to...
 for i=4 to 1 step -1:
-  ?i; // prints 4,3,2,1
+  ?i // prints 4,3,2,1
 end
 
 // while statement
-var i = 1;
+var i = 1
 while i < 10:
-  ?i;
-  i += 1;
+  ?i
+  i += 1
 end
 
 // Let's see some classes declarations, shall we?
@@ -122,14 +122,10 @@ class Dog as Animal:
 // Instances
 doggy = Dog("Spike")
 for i=1 to 3:
-   doggy.bark(); // shut up dog...
+   doggy.bark() // shut up dog...
 end
 ```
 <hr>
-
-**Why the semicolon for terminating the expressions?**
-
-Well, parsing expressions requires any terminator character and the semicolon `;` is the most widely used termination character used in programming, but let me know if you are thinking in another character as good as `;`.
 
 **Why the end closing keyword instead of well known block delimiters `{ block }`**
 
