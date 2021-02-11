@@ -34,9 +34,9 @@ var a
 
 // you don't need to terminate any statement with semicolon (yeah! I know how to parse statements like python)
 
-a = 10; // isolated assignment statement
-var b = 5; // declaration and assignment (binding).
-?"result:", a + b; // do you like the VFP `?` printing operator? or `print` instead?
+a = 10 // isolated assignment statement
+var b = 5 // declaration and assignment (binding).
+?"result:", a + b // do you like the VFP `?` printing operator? or `print` instead?
 
 // control flow
 // if statement
