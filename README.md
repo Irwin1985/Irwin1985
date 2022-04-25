@@ -20,7 +20,7 @@ Do you like what i do? what about a tiny donation?:
 
 Thanks for you support!
 
-I'm a ***Compiler and Interpreter*** lover ❤ so I decided study this huge topic inspired by my goal of creating my first programming language called `Sumerian` or `Sumerio` in Spanish *(yep, I'm latin).* So far I can tell you no much about `SumerioLang` but it's a *Dynamic typed language* which syntax will be inspired on **Ruby, Python, Visual Foxpro, C and Lisp.**
+I'm a ***Compiler and Interpreter*** lover ❤ so I decided study this huge topic inspired by my goal of creating my first programming language called `Sumerian` or `Sumerio` in Spanish *(yep, I'm a latino ).* So far I can tell you no much about `SumerioLang` but it's a *Dynamic typed language* which syntax will be inspired on **Ruby, Python, Visual Foxpro, C and Lisp.**
 
 Take a look to its syntax below and let me know if you have some suggestions...
 
