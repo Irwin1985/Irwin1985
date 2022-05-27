@@ -20,121 +20,82 @@ Do you like what i do? what about a tiny donation?:
 
 Thanks for you support!
 
-I'm a ***Compiler and Interpreter*** lover ❤ so I decided study this huge topic inspired by my goal of creating my first programming language called `Sumerian` or `Sumerio` in Spanish *(yep, I'm a latino ).* So far I can tell you no much about `SumerioLang` but it's a *Dynamic typed language* which syntax will be inspired on **Ruby, Python, Visual Foxpro, C and Lisp.**
+I'm a ***Compiler and Interpreter*** lover ❤ so I decided study this huge topic inspired by my goal of creating my first programming language called `El Capo` which it's a *Dynamic typed language* and it syntax is highly inspired by **Python and Visual Foxpro**
 
 Take a look to its syntax below and let me know if you have some suggestions...
 
 <hr>
 
-🤔 Actually I'm currently working in `Sumerio` syntax and I think this first approach it ok for start:
+🤔 Actually I'm currently working in `El Capo` syntax and I think this first approach it ok for start:
 
 ```xBase
-// C-Style comments
-/**
+# Single comment
+"""
 * And multi-line comment are also important.
-*/
+"""
 
-// let's start with variable declaration
-var a
+# let's start with variable declaration
+let a
 
-// you don't need to terminate any statement with semicolon (yeah! I know how to parse statements like python)
+# you don't need to terminate any statement with semicolon (yeah! I know how to parse statements like python)
 
-a = 10 // isolated assignment statement
-var b = 5 // declaration and assignment (binding).
-?"result:", a + b // do you like the VFP `?` printing operator? or `print` instead?
+a = 10 # isolated assignment statement
+let b = 5 # declaration and assignment (binding).
+print("result:", a + b)
 
-// control flow
-// if statement
-if a + b < 10
-  ?"is less"
-elif a + b > 10
-  ?"a is greater"
-end
+# CONTROL FLOW
+# if statement
+if a + b < 10:
+  print("is less")
 
-// If your conditional's block is composed by a single statement then 
-// check this out
+# Ternary operator
 
-if a > b -> return "greater"
+result = iif(a > b), "greater", "less") # same as IIF() from fox.
 
-// Need an else alternative? No problem...
-if a > b -> return "greater" -> return "less"
-
-// What about ternary operator like this one
-
-result = (a > b) <- "greater" -> "less" // do you like it? is it make any sense?
-
-// Check this branching statement
-case a
-  -> 1 : "a is 1"
-  -> 2 : "a is 2"
-  -> 3 : "a is 3"
-  other: "dont know what a is it"
-end
-// do you like it? or do you miss the `when` keyword?
-
-// functions: in sumerio functions are first class citizen (inspired from LISP)
-
-fun parent()
-  var x = "hello"
-  func child()
-    ?x
-  end
+# functions
+def parent:
+  let x = "hello"
+  def child:
+    print(x) # closure
   return child
-end
-var f = parent()
-f();
 
-// for statement (inspired from Visual FoxPro)
-for i=1 to 3
-  ?i // prints 1,2,3
-end
-// using step
-for i=1 to 10 step 3
-  ?i // prints 1, 3, 5, 7
-end
+let f = parent()
+f()
 
-// down to...
-for i=4 to 1 step -1
-  ?i // prints 4,3,2,1
-end
+# for statement
+for i in 3
+  print(i)
 
-// while statement
-var i = 1
+# while statement
+let i = 1
 while i < 10
-  ?i
+  print(i)
   i += 1
-end
 
-// Let's see some classes declarations, shall we?
-class Animal
-  init(name) // init method is special. Is like a constructor.
-    this.name = name
-  end
-  // class method's don't need the 'fun' keyword.
-  walk()
-    ?"Walking..."
-  end
+# Let's see some classes declarations, shall we?
+class Animal:
+  def init(name) # init method is special. Is like a constructor.
+    self.name = name
+  
+  # class method
+  def walk:
+    print("Walking...")
 
-// Inheritance
-class Dog as Animal
-  init(name)
+# Inheritance
+class Dog(Animal):
+  def init(name)
     super(name)
     
-  bark()
-   ?"Boof..."
-  end
+  def bark:
+   print("Boof...")
 
-// Instances
-doggy = Dog("Spike")
-for i=1 to 3
-   doggy.bark() // shut up dog...
+# Instances
+let doggy = Dog("Spike")
+for i in 3
+   doggy.bark() # shut up dog...
 end
 ```
 <hr>
-
-**Why the end closing keyword instead of well known block delimiters `{ block }`**
-
-That's a good question, Sumerio will follow the Lua and Ruby's closing style. I always tend to think `end` keyword is often related to dynamic languages and curly braces with static typed languages, off course this isn't true but if you peek all C-family programming languages you'll notice that most are statically type.
 
 ###  🧲 &nbsp;Follow me... 
 <p align="center">
