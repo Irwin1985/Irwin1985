@@ -1,4 +1,4 @@
-![](https://media.giphy.com/media/5Zesu5VPNGJlm/giphy.gif)
+![](https://media.giphy.com/media/KpACNEh8jXK2Q/giphy.gif)
 
 <p align="center"> 
   Visitor count<br>
