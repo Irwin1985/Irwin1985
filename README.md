@@ -1,10 +1,8 @@
 ![](https://media.giphy.com/media/5Zesu5VPNGJlm/giphy.gif)
 
-<a href=#><img src="contributions.svg"></a>
-
 <p align="center"> 
   Visitor count<br>
-  <img src="https://profile-counter.glitch.me/daweedkob/count.svg" />
+  <img src="https://profile-counter.glitch.me/Irwin1985/count.svg" />
 </p>
 
 <h1>    
