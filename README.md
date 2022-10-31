@@ -1,10 +1,4 @@
 ![](https://media.giphy.com/media/XGqDsE3owV0RO/giphy.gif)
-
-<p align="center"> 
-  Visitor count<br>
-  <img src="https://profile-counter.glitch.me/Irwin1985/count.svg" />
-</p>
-
 <h1>    
     Hey 👋, I'm Irwin
     Welcome to my humble abode!
@@ -121,4 +115,9 @@ end
     <a href="https://www.linkedin.com/in/irwin1985/">
         <img src="https://img.shields.io/badge/LinkedIn-irwin1985-orange" />
     </a>
+</p>
+
+<p align="center"> 
+  Visitor count<br>
+  <img src="https://profile-counter.glitch.me/Irwin1985/count.svg" />
 </p>
