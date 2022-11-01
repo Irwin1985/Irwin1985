@@ -3,17 +3,11 @@
 <h1 align="center">Hi 👋, I'm Irwin Rodríguez</a></h1>
 <h3 align="center">A passionate Interpreter Developer from &#x1F1EA; &#x1F1F8;</h3>
 
-<a target="_blank" align="center">
-  <img align="right" top="500" height="300" width="400" alt="GIF" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif">
-</a>
-
 - 🔭 I’m currently working on **y-base** _(a very cool programming language derived from xBase and Visual Foxpro)_
 
 - 🤝 I’m available for consulting.
 
 - 🌱 I like programming languages so I tried a lot of them, so far **Swift** is the most beautiful in syntax.
-
-- 📝 I regularly write articles on <a href="https://phoenix.tech/griffyn/" target="blank">Dev</a>
 
 - 💬 Ask me about **Interpreters** 
 
