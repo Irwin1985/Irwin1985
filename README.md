@@ -1,12 +1,25 @@
 ![](https://media.giphy.com/media/XGqDsE3owV0RO/giphy.gif)
-<h1>    
-    Hey 👋, I'm Irwin
-    Welcome to my humble abode!
-</h1>
 
-Before anything, take a look at my Github statistics...
+<h1 align="center">Hi 👋, I'm Irwin Rodríguez</a></h1>
+<h3 align="center">A passionate Interpreter developer &#127470;&#127475</h3>
 
-### ⌛️ &nbsp; How I did it?
+<a target="_blank" align="center">
+  <img align="right" top="500" height="300" width="400" alt="GIF" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif">
+</a>
+
+- 🔭 I’m currently working on **y-base** _(a very cool programming language derived from xBase and Visual Foxpro)_
+
+- 🤝 I’m available for consulting.
+
+- 🌱 I like programming languages so I tried a lot of them, so far **Swift** is the most beautiful in syntax.
+
+- 📝 I regularly write articles on <a href="https://phoenix.tech/griffyn/" target="blank">Dev</a>
+
+- 💬 Ask me about **Interpreters** 
+
+- 📫 How to reach me **rodriguez.irwin@gmail.com**
+
+### ⌛️ &nbsp; The following show some of the languages I've used to build things...
 <p align="center">
     <a href="https://github.com/irwin1985">
         <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=irwin1985&show_icons=true&theme=algolia&include_all_commits=true&count_private=true" />
@@ -21,81 +34,6 @@ Do you like what i do? what about a tiny donation?:
 
 Thanks for you support!
 
-I'm a ***Compiler and Interpreter*** lover ❤ so I decided study this huge topic inspired by my goal of creating my first programming language called `El Capo` which it's a *Dynamic typed language* and it syntax is highly inspired by **Python and Visual Foxpro**
-
-Take a look to its syntax below and let me know if you have some suggestions...
-
-<hr>
-
-🤔 Actually I'm currently working in `El Capo` syntax and I think this first approach it ok for start:
-
-```xBase
-# Single comment
-"""
-* And multi-line comment are also important.
-"""
-
-# let's start with variable declaration
-let a
-
-# you don't need to terminate any statement with semicolon (yeah! I know how to parse statements like python)
-
-a = 10 # isolated assignment statement
-let b = 5 # declaration and assignment (binding).
-print("result:", a + b)
-
-# CONTROL FLOW
-# if statement
-if a + b < 10:
-  print("is less")
-
-# Ternary operator
-
-result = iif(a > b), "greater", "less") # same as IIF() from fox.
-
-# functions
-def parent:
-  let x = "hello"
-  def child:
-    print(x) # closure
-  return child
-
-let f = parent()
-f()
-
-# for statement
-for i in 3
-  print(i)
-
-# while statement
-let i = 1
-while i < 10
-  print(i)
-  i += 1
-
-# Let's see some classes declarations, shall we?
-class Animal:
-  def init(name) # init method is special. Is like a constructor.
-    self.name = name
-  
-  # class method
-  def walk:
-    print("Walking...")
-
-# Inheritance
-class Dog(Animal):
-  def init(name)
-    super(name)
-    
-  def bark:
-   print("Boof...")
-
-# Instances
-let doggy = Dog("Spike")
-for i in 3
-   doggy.bark() # shut up dog...
-end
-```
 <hr>
 
 ###  🧲 &nbsp;Follow me... 
