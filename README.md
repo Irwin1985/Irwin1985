@@ -13,6 +13,8 @@
 
 - 📫 How to reach me **rodriguez.irwin@gmail.com**
 
+[![Check out Irwin1985's profile on stardev.io](https://stardev.io/developers/Irwin1985/badge/languages/global.svg)](https://stardev.io/developers/Irwin1985)
+
 ### ⌛️ &nbsp; The following show some of the languages I've used to build things...
 <p align="center">
     <a href="https://github.com/irwin1985">
@@ -22,8 +24,6 @@
 </p>
 
 [![Github](https://img.shields.io/github/followers/Irwin1985?label=Follow&style=social)](https://github.com/Irwin1985)
-
-[![Check out Irwin1985's profile on stardev.io](https://stardev.io/developers/Irwin1985/badge/languages/global.svg)](https://stardev.io/developers/Irwin1985)
 
 Do you like what i do? what about a tiny donation?:   
 [![DONATE!](http://www.pngall.com/wp-content/uploads/2016/05/PayPal-Donate-Button-PNG-File-180x100.png)](https://www.paypal.com/donate/?hosted_button_id=LXQYXFP77AD2G) 
