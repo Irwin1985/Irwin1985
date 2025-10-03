@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Profile - FoxPro Tools Developer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 30px;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+        
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 60px;
+            color: white;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .header .subtitle {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        
+        .language-switch {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            color: #667eea;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        
+        .language-switch:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-2px);
+        }
+        
+        .section {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .section h2 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .section h3 {
+            color: #764ba2;
+            font-size: 1.3em;
+            margin: 20px 0 10px 0;
+        }
+        
+        .experience-item {
+            background: #f8f9ff;
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .experience-item h4 {
+            color: #667eea;
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+        
+        .experience-years {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+        
+        .product-card {
+            background: linear-gradient(135deg, #f8f9ff 0%, #e8ecff 100%);
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 25px;
+            border: 1px solid #e0e6ff;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(102, 126, 234, 0.2);
+        }
+        
+        .product-card h4 {
+            color: #667eea;
+            font-size: 1.4em;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .tech-tag {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            display: inline-block;
+            margin: 5px 5px 5px 0;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .skill-category {
+            background: #f8f9ff;
+            padding: 20px;
+            border-radius: 15px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .skill-category h4 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        
+        .skill-item {
+            background: white;
+            padding: 8px 15px;
+            border-radius: 10px;
+            margin-bottom: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #667eea;
+            text-decoration: none;
+            padding: 10px 20px;
+            background: #f8f9ff;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+        }
+        
+        .contact-item:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-2px);
+        }
+        
+        .highlight-box {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .highlight-box h3 {
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .header {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .language-switch {
+                position: static;
+                display: inline-block;
+                margin-bottom: 20px;
+            }
+            
+            .contact-info {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="language-switch">
+        <i class="fas fa-globe"></i> Español
+    </a>
+    
+    <div class="container">
+        <header class="header">
+            <div class="profile-img">
+                <i class="fas fa-code"></i>
+            </div>
+            <h1>Senior Tools Developer</h1>
+            <p class="subtitle">Visual FoxPro Specialist • Hybrid Solutions Architect • AI Integrator</p>
+            <div class="contact-info">
+                <a href="https://github.com/your-username" class="contact-item">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="mailto:your-email@example.com" class="contact-item">
+                    <i class="fas fa-envelope"></i> Contact
+                </a>
+                <a href="https://patreon.com/your-profile" class="contact-item">
+                    <i class="fab fa-patreon"></i> Patreon
+                </a>
+            </div>
+        </header>
+
+        <section class="section">
+            <h2><i class="fas fa-user-tie"></i> Professional Profile</h2>
+            <p><strong>Senior Tools Developer for Programmers</strong> specialized in Visual FoxPro application modernization and hybrid VFP/.NET solution architecture.</p>
+            
+            <div class="highlight-box">
+                <h3><i class="fas fa-rocket"></i> Core Specialization</h3>
+                <p>Development of advanced tools for the FoxPro community with focus on legacy application modernization, emerging technology integration (AI, .NET, Web APIs), and creating technological bridges between VFP and modern ecosystems.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2><i class="fas fa-briefcase"></i> Professional Experience</h2>
+            
+            <div class="experience-item">
+                <h4><i class="fas fa-database"></i> Visual FoxPro</h4>
+                <span class="experience-years">17+ years</span>
+                <ul>
+                    <li>Complex enterprise application development</li>
+                    <li>Robust data system architecture</li>
+                    <li>Performance optimization and scalability</li>
+                    <li>Junior developer mentoring</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <h4><i class="fas fa-cogs"></i> X# (.NET xBase)</h4>
+                <span class="experience-years">3 years</span>
+                <ul>
+                    <li>VFP to .NET code migration and modernization</li>
+                    <li>Hybrid VFP/.NET library development</li>
+                    <li>Modern design pattern implementation</li>
+                    <li>Web services and REST API integration</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2><i class="fas fa-tools"></i> Developed Products</h2>
+            
+            <div class="product-card">
+                <h4><i class="fas fa-server"></i> FoxServer - Multi-Service HTTP Server</h4>
+                <p>Converts VFP applications into modern web services with support for REST APIs, webhooks, SSE, and JWT authentication.</p>
+                <div>
+                    <span class="tech-tag">X#</span>
+                    <span class="tech-tag">.NET Core</span>
+                    <span class="tech-tag">REST APIs</span>
+                    <span class="tech-tag">JWT</span>
+                    <span class="tech-tag">Webhooks</span>
+                </div>
+            </div>
+            
+            <div class="product-card">
+                <h4><i class="fas fa-tasks"></i> FoxCore - Asynchronous Task Framework</h4>
+                <p>Parallel VFP code execution with intelligent resource management and multi-version support.</p>
+                <div>
+                    <span class="tech-tag">X#</span>
+                    <span class="tech-tag">.NET Threading</span>
+                    <span class="tech-tag">COM Interop</span>
+                    <span class="tech-tag">Async/Await</span>
+                </div>
+            </div>
+            
+            <div class="product-card">
+                <h4><i class="fas fa-robot"></i> FoxPilot - AI Assistant for VFP</h4>
+                <p>Native VFP IDE integration for refactoring, analysis, and automatic code generation using AI.</p>
+                <div>
+                    <span class="tech-tag">OpenAI API</span>
+                    <span class="tech-tag">Native FLL</span>
+                    <span class="tech-tag">GPT-4</span>
+                    <span class="tech-tag">Code Analysis</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2><i class="fas fa-brain"></i> Artificial Intelligence Integration</h2>
+            
+            <h3><i class="fas fa-code"></i> AI-Powered Tool Development</h3>
+            <ul>
+                <li>GPT model implementation for code assistance</li>
+                <li>Automated validation and analysis system creation</li>
+                <li>Conversational interface development for programmers</li>
+            </ul>
+            
+            <h3><i class="fas fa-cog"></i> Process Automation</h3>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Make (Integromat)</h4>
+                    <div class="skill-item">Complex enterprise workflows</div>
+                    <div class="skill-item">System integration</div>
+                </div>
+                <div class="skill-category">
+                    <h4>n8n</h4>
+                    <div class="skill-item">Data pipelines</div>
+                    <div class="skill-item">Automated processes</div>
+                </div>
+                <div class="skill-category">
+                    <h4>Use Cases</h4>
+                    <div class="skill-item">Automated testing</div>
+                    <div class="skill-item">Automatic documentation</div>
+                    <div class="skill-item">Specialized chatbots</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2><i class="fas fa-laptop-code"></i> Technology Stack</h2>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Programming Languages</h4>
+                    <div class="skill-item">Visual FoxPro (Expert - 17+ years)</div>
+                    <div class="skill-item">X# (Advanced - 3 years)</div>
+                    <div class="skill-item">C#/.NET (Intermediate-Advanced)</div>
+                    <div class="skill-item">SQL (Advanced)</div>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>Technologies</h4>
+                    <div class="skill-item">.NET Core/Framework</div>
+                    <div class="skill-item">HTTP/REST APIs</div>
+                    <div class="skill-item">JWT Authentication</div>
+                    <div class="skill-item">Server-Sent Events</div>
+                    <div class="skill-item">Webhooks</div>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>AI & Automation</h4>
+                    <div class="skill-item">OpenAI API (GPT-3.5, GPT-4)</div>
+                    <div class="skill-item">Make (Integromat)</div>
+                    <div class="skill-item">n8n</div>
+                    <div class="skill-item">Patreon API</div>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>Databases</h4>
+                    <div class="skill-item">Visual FoxPro DBF/CDX</div>
+                    <div class="skill-item">SQL Server</div>
+                    <div class="skill-item">MySQL</div>
+                    <div class="skill-item">SQLite</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2><i class="fas fa-graduation-cap"></i> Learning Methodology</h2>
+            <div class="highlight-box">
+                <h3><i class="fas fa-lightbulb"></i> AI-Assisted Learning</h3>
+                <p>Pioneer in using AI as a mentor to accelerate mastery of new technologies, especially in the VFP → .NET transition, achieving exceptional learning curves through active code transcription, iterative queries for deep understanding, and immediate practical application.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2><i class="fas fa-trophy"></i> Unique Value Proposition</h2>
+            <p><strong>Unique specialist</strong> at the intersection of legacy and modern technologies, capable of:</p>
+            <ul>
+                <li>✅ Preserving existing VFP code investments</li>
+                <li>✅ Modernizing applications without complete rewrites</li>
+                <li>✅ Integrating AI practically and productively</li>
+                <li>✅ Creating scalable and maintainable hybrid solutions</li>
+                <li>✅ Automating complex processes with no-code/low-code tools</li>
+            </ul>
+            
+            <div class="highlight-box">
+                <h3><i class="fas fa-quote-left"></i> Philosophy</h3>
+                <p><em>"Transforming traditional development with modern tools, AI, and intelligent automation"</em></p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
