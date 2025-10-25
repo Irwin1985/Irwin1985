@@ -25,8 +25,9 @@
 |-------------|-------------------|---------------|
 | **FoxServer** | X# frontend server using FoxPro as backend to dispatch requests | ✅ Production |
 | **FoxCore** | Leverages .NET's async model to run VFP processes in parallel | ✅ Production |
-| **FoxPilot** | AI-powered copilot for Visual FoxPro with ChatGPT mini integration | 🚀 Active |
+| **FoxPilot** | AI-powered copilot for Visual FoxPro with ChatGPT mini integration | ✅ Production |
 | **FoxMate** | AI assistant deployed as contextual menu in any Visual FoxPro 9.0 application | 🔧 In Development |
+| **FoxQuery** | Add an intelligent assistant to your app that answer business questions using your own data | ✅ Production |
 
 **🔗 [Explore all tools →](http://www.patreonfox.com/tools)**
 
