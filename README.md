@@ -1,160 +1,260 @@
 <h1 align="center">👋 Hi, I'm Irwin Rodríguez</h1>
-<h3 align="center">🚀 Visual FoxPro & X# Specialist | AI Integration Expert | Enterprise Tools Architect | 🇪🇸 Spain</h3>
+<h3 align="center">Developer Tooling Engineer • FoxPro/X# Ecosystem • AI Integration • Language & Runtime Development</h3>
 
 <div align="center">
-  
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/IrwinRodriguez)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/irwin1985/)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/irwin_rg)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rodriguez.irwin@gmail.com)
-[![Website](https://img.shields.io/badge/Tools-FF6B35?style=for-the-badge&logo=firefox&logoColor=white)](http://www.patreonfox.com/tools)
+
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge\&logo=youtube\&logoColor=white)](https://youtube.com/IrwinRodriguez)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/irwin1985/)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge\&logo=twitter\&logoColor=white)](https://twitter.com/irwin_rg)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:rodriguez.irwin@gmail.com)
+[![Tools](https://img.shields.io/badge/Tools-FF6B35?style=for-the-badge\&logo=firefox\&logoColor=white)](http://www.patreonfox.com/tools)
 
 </div>
 
 ---
 
-## 🎯 **Professional Profile**
+# 👨‍💻 About Me
 
-**Senior Developer & AI Integration Specialist** with **17 years of experience in Visual FoxPro** and **3 years in X#**. I specialize in creating **enterprise-level tools** that enhance developer productivity and modernize legacy applications through AI integration and automation.
+Software engineer specialized in **developer tooling, programming languages and AI integration**.
 
-### 🏆 **Featured Enterprise Tools**
+I have spent **17+ years working in the Visual FoxPro ecosystem** building tools, frameworks and infrastructure that help other developers build better software.
 
-> 🌐 **[Visit my tools website](http://www.patreonfox.com/tools)** to explore these solutions in detail
+In recent years I have expanded that work into the **.NET ecosystem through X#**, focusing on:
 
-| 🛠️ **Tool** | 📝 **Description** | 🔗 **Status** |
-|-------------|-------------------|---------------|
-| **FoxServer** | X# frontend server using FoxPro as backend to dispatch requests | ✅ Production |
-| **FoxCore** | Leverages .NET's async model to run VFP processes in parallel | ✅ Production |
-| **FoxPilot** | AI-powered copilot for Visual FoxPro with ChatGPT mini integration | ✅ Production |
-| **FoxMate** | AI assistant deployed as contextual menu in any Visual FoxPro 9.0 application | 🔧 In Development |
-| **FoxQuery** | Add an intelligent assistant to your app that answer business questions using your own data | ✅ Production |
+* Developer tooling
+* Language runtimes
+* SDK design
+* AI integration
+* Legacy modernization
 
-**🔗 [Explore all tools →](http://www.patreonfox.com/tools)**
+My work sits at the intersection of **FoxPro, .NET and modern AI systems**.
 
 ---
 
-## 💻 **Core Competencies**
+# 🧠 Areas of Expertise
 
-### 🎯 **Programming Languages & Frameworks**
+## Developer Tooling
 
-1. **Visual FoxPro** - 17 years of expertise (Expert level)
-2. **X# (xBase.NET)** - 3 years of advanced development
-3. **C#** - Intermediate knowledge for .NET integration
-4. **Java** - Additional programming language experience
-5. **.NET Framework** - Advanced integration and deployment
+Design and development of tools that improve developer productivity.
 
-### 🤖 **Enterprise Process Automation & AI Integration**
+Examples:
 
-**Make.com Expert** - Specialized in automating complex business processes for enterprises:
+* SDKs
+* Frameworks
+* IDE extensions
+* Developer utilities
+* Runtime libraries
 
-- **📄 Invoice Processing** → Automated transcription and data extraction from invoices
-- **📊 Report Generation** → Automated email delivery of business reports
-- **💼 ERP Integrations** → Seamless data flow between legacy and modern systems
-- **📈 Financial Workflows** → Automated accounting and financial reporting processes
-- **🔄 Data Synchronization** → Real-time sync between databases and cloud services
-- **📧 Communication Automation** → Automated customer notifications and follow-ups
-- **📋 Document Management** → Automated filing, categorization, and approval workflows
-- **🎯 ChatGPT API Integration** → AI-powered code generation and business intelligence
-
-**Perfect for companies looking to modernize their ERP processes and eliminate manual tasks.**
-
-### 🔧 **Technical Stack**
-
-- **Visual FoxPro** → Expert (17 years) - Legacy application development and maintenance
-- **X# (xBase.NET)** → Advanced (3 years) - Modern xBase development on .NET platform
-- **.NET Framework** → Advanced - Enterprise application architecture
-- **C#** → Intermediate - Integration and utility development
-- **Java** → Basic - Cross-platform development capabilities
-- **SQL Server** → Advanced - Database design and optimization
-- **REST APIs** → Advanced - Modern web service development
+This is my primary specialization.
 
 ---
 
-## 🎯 **Professional Services**
+## Programming Languages & Runtimes
 
-### 🔥 **What I Can Do For You**
+Strong interest in how languages work internally.
 
-#### 🏗️ **Legacy Modernization**
-- **FoxPro to X# Migration** → Complete application modernization
-- **Performance Optimization** → Parallel processing and async operations
-- **Database Integration** → Modern data access patterns
-- **API Development** → RESTful services for legacy applications
+Experience implementing:
 
-#### 🤖 **AI Integration & Automation**
-- **AI-Powered Tools** → Custom copilots and assistants
-- **ChatGPT Integration** → Code suggestion and generation
-- **Process Automation** → Using Make.com and custom workflows
-- **Intelligent Code Analysis** → AI-driven code review and optimization
+* Lexical analyzers
+* Tokenizers
+* Parsers
+* Expression evaluators
+* Interpreters
 
-#### 🛠️ **Custom Tool Development**
-- **Developer Productivity Tools** → IDE extensions and utilities
-- **Enterprise Applications** → Scalable business solutions
-- **Integration Solutions** → Connecting legacy and modern systems
-- **Deployment Automation** → CI/CD pipelines for FoxPro/X# projects
-
-#### 📚 **Training & Mentoring**
-- **Visual FoxPro Advanced Techniques** → 17 years of expertise
-- **X# and .NET Migration** → Hands-on guidance
-- **AI Integration Strategies** → Practical implementation
-- **Modern Architecture Patterns** → Best practices and design patterns
-
-### 💡 **Ready to Modernize Your Legacy Systems?**
-**Let's discuss your project!** → [rodriguez.irwin@gmail.com](mailto:rodriguez.irwin@gmail.com)
+This knowledge is applied when building **developer tools and language infrastructure**.
 
 ---
 
-## 🎬 **Knowledge Sharing**
+## FoxPro & X# Ecosystem
 
-### 📺 **YouTube Channel - Technical Content**
-I create educational content about:
-- **Advanced Visual FoxPro** → Tips, tricks and best practices
-- **X# Migration Strategies** → Step-by-step guides
-- **AI Integration Tutorials** → Practical implementations
-- **Automation Workflows** → Using Make.com and custom tools
-- **Modern Development Patterns** → Architecture and design
+### Visual FoxPro
 
-[![YouTube Channel](https://img.shields.io/youtube/channel/subscribers/UCYourChannelID?style=social)](https://youtube.com/IrwinRodriguez)
+17+ years of professional experience.
 
-### 🌟 **Support My Work**
-If my tools and content have helped your projects:
+Areas of focus:
 
-[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/donate/?hosted_button_id=LXQYXFP77AD2G)
+* Advanced application architecture
+* Developer tooling
+* Reusable libraries
+* Legacy modernization
+
+### X# (.NET)
+
+Modern xBase development on the .NET platform.
+
+Focus areas:
+
+* .NET libraries
+* SDK design
+* async programming
+* interoperability with FoxPro
 
 ---
 
-## 🤝 **Professional Contact**
+# 🛠 Key Projects
+
+## FoxServer
+
+Infrastructure for communication between FoxPro applications and modern services.
+
+Designed to enable FoxPro systems to interact with external systems through a service-based architecture.
+
+---
+
+## FoxCore
+
+Interoperability engine between **Visual FoxPro and X# (.NET)**.
+
+Hybrid architecture:
+
+* Core engine implemented in **X#**
+* Controllers implemented in **Visual FoxPro**
+
+Allows legacy applications to leverage modern .NET capabilities.
+
+---
+
+## FoxPilot
+
+AI-powered development assistant for **Visual FoxPro developers**.
+
+Capabilities include:
+
+* AI code assistance
+* contextual developer help
+* productivity improvements for FoxPro developers
+
+---
+
+## AI SDKs
+
+Frameworks designed to integrate **Large Language Models (LLM)** into applications.
+
+### XSharp.AI.SDK
+
+.NET SDK for building:
+
+* assistants
+* agents
+* LLM integrations
+
+### VFP.AI.SDK
+
+Equivalent SDK designed specifically for **Visual FoxPro applications**.
+
+Provides abstractions for:
+
+* prompt handling
+* LLM communication
+* structured responses
+* agent orchestration
+
+---
+
+# 🤖 AI Systems Experience
+
+Hands-on experience implementing **LLM-based systems** inside developer tools and applications.
+
+Concepts implemented in real projects:
+
+* ReAct pattern
+* tool orchestration
+* function calling
+* structured JSON parsing
+* prompt engineering
+
+Knowledge of the architecture required for **Retrieval Augmented Generation (RAG)** systems:
+
+* document ingestion
+* chunking
+* embeddings
+* vector databases
+* semantic search
+
+---
+
+# 🧩 X# Language Development
+
+Active contributor to the **X# language development team**.
+
+Work includes:
+
+* FoxPro dialect implementation
+* runtime functions
+* language compatibility
+
+This involves working close to the internals of the language and runtime.
+
+---
+
+# 🎤 Conference Speaker
+
+Speaker at **X# Summit 2026 — Potsdam, Germany**.
+
+Topic:
+
+**Implementing Artificial Intelligence in X# and Visual FoxPro Applications**
+
+The session covered:
+
+* architecture for AI integration
+* LLM-based assistants
+* real tools built for the ecosystem
+
+---
+
+# 📺 Knowledge Sharing
+
+I regularly share technical content about:
+
+* Visual FoxPro
+* X#
+* AI integration
+* developer tooling
+
+YouTube channel:
+
+[https://youtube.com/IrwinRodriguez](https://youtube.com/IrwinRodriguez)
+
+---
+
+# 🧰 Technical Stack
+
+Languages:
+
+* Visual FoxPro
+* X#
+* C#
+* xBase dialects
+
+Platforms:
+
+* .NET
+* Windows
+
+Technologies:
+
+* REST APIs
+* SDK design
+* async programming
+* LLM APIs
+
+---
+
+# 🌍 Community
+
+GitHub:
+
+[https://github.com/Irwin1985](https://github.com/Irwin1985)
+
+Tools platform:
+
+[http://www.patreonfox.com/tools](http://www.patreonfox.com/tools)
+
+---
 
 <div align="center">
 
-| 🌐 **Platform** | 📱 **Contact** | 💬 **Best For** |
-|----------------|---------------|-----------------|
-| **Email** | [rodriguez.irwin@gmail.com](mailto:rodriguez.irwin@gmail.com) | **Consulting & Projects** |
-| **LinkedIn** | [irwin1985](https://www.linkedin.com/in/irwin1985/) | **Professional Networking** |
-| **YouTube** | [IrwinRodriguez](https://youtube.com/IrwinRodriguez) | **Technical Tutorials** |
-| **Twitter** | [@irwin_rg](https://twitter.com/irwin_rg) | **Tech Updates & Tips** |
-| **Instagram** | [@irwinrdz85](https://instagram.com/irwinrdz85) | **Behind the Scenes** |
-| **Tools Website** | [patreonfox.com/tools](http://www.patreonfox.com/tools) | **Download My Tools** |
+Developer Tooling • Programming Languages • AI Integration
 
-</div>
-
----
-
-## 🏆 **Specialization Areas**
-
-<div align="center">
-
-### 🎯 **Primary Expertise**
-**Legacy System Modernization** • **AI Integration** • **Process Automation** • **Enterprise Tool Development**
-
-### 🚀 **Unique Value Proposition**
-*"Bridging 17 years of FoxPro expertise with cutting-edge AI and modern .NET technologies to create powerful, future-ready solutions"*
-
-[![GitHub followers](https://img.shields.io/github/followers/Irwin1985?label=Follow&style=social)](https://github.com/Irwin1985)
-
-</div>
-
----
-
-<div align="center">
-  <i>💼 Available for consulting projects | 🌍 Working from Spain | 🤖 AI Integration Specialist</i>
 </div>
